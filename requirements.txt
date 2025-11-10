@@ -3,6 +3,9 @@ uvicorn
 faiss-cpu
 numpy
 pandas
-sentence-transformers
 scikit-learn
 requests
+# Force CPU-only PyTorch
+torch==2.3.0+cpu
+sentence-transformers==2.2.2
+--extra-index-url https://download.pytorch.org/whl/cpu
