@@ -1,8 +1,8 @@
 fastapi
 uvicorn
-faiss-cpu==1.7.4
+faiss-cpu
 numpy
 pandas
-sentence-transformers==2.2.2
+sentence-transformers
 scikit-learn
 requests
