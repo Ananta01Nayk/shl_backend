@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+requests
+beautifulsoup4
+pandas
+sentence-transformers
+faiss-cpu
+streamlit
+httpx
+scikit-learn
+python-multipart
+pydantic
+tqdm
