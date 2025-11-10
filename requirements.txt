@@ -1,11 +1,8 @@
-fastapi
-uvicorn
-faiss-cpu
-numpy
-pandas
-scikit-learn
-requests
-# Force CPU-only PyTorch
-torch==2.3.0+cpu
-sentence-transformers==2.2.2
---extra-index-url https://download.pytorch.org/whl/cpu
+fastapi==0.115.6
+uvicorn==0.32.0
+faiss-cpu==1.12.0
+numpy==2.1.3
+pandas==2.2.3
+scikit-learn==1.6.0
+requests==2.32.3
+sentence-transformers==3.0.1
